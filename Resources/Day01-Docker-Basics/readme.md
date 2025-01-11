@@ -11,6 +11,9 @@ Docker provides ability to run application in an isolated environment called con
 
 # Diffrence between Container and Vistual Machines (VMs)
 
+![ContvsVM](https://github.com/user-attachments/assets/1e2cb37c-4a64-4ae0-b904-82298595aba4)
+
+
 Containers are lightweight, portable environments that share the host OS kernel.
 
 Virtual Machines are full-fledged virtualized systems with their own OS.
@@ -27,5 +30,13 @@ Virtual Machines are full-fledged virtualized systems with their own OS.
     * Ideal for legacy applications or environments demanding high security and isolation.
     * Provides complete OS-level support.
 
+
+# Dockerfile
+
+![DockerFile](https://github.com/user-attachments/assets/2b940ac9-4b64-4bbb-b74f-e0fad11f5f4f)
+
 # Docker Architecture
+
+![dockerarc](https://github.com/user-attachments/assets/8298453b-4de7-4be0-ab6e-8887a4c80bf3)
+
 
