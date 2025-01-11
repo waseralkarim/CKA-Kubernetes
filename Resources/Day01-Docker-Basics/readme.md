@@ -1,5 +1,7 @@
 # About Docker!
 
+![DockerTasks](https://github.com/user-attachments/assets/a9648231-40f1-4fb8-931e-2ae7a0018868)
+
 Docker provides ability to run application in an isolated environment called container.
 
 ## Container
