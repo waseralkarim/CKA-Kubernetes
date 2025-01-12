@@ -22,7 +22,7 @@ Virtual Machines are full-fledged virtualized systems with their own OS.
 
 * Containers:
     * Ideal for lightweight and scalable application deployment.
-    * est for microservices and environments where portability is key.
+    * Best for microservices and environments where portability is key.
     * Faster startup times and lower overhead.
 
 * Virtual Machines
