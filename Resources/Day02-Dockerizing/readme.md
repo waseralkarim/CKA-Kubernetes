@@ -63,36 +63,7 @@ Visit `http://localhost:5000` in your browser (or the relevant port for your app
 
 ## Additional Steps
 
-### 1. Use Docker Compose (Optional)
-If your project requires multiple services (e.g., a web server and a database), you can use Docker Compose to define and run multi-container applications.
-
-Create a `docker-compose.yml` file:
-
-```yaml
-version: '3.8'
-services:
-  app:
-    build: .
-    ports:
-      - "5000:5000"
-    volumes:
-      - .:/app
-    environment:
-      - FLASK_ENV=development
-  db:
-    image: postgres:13
-    environment:
-      POSTGRES_USER: user
-      POSTGRES_PASSWORD: password
-      POSTGRES_DB: mydb
-```
-
-Run the application with:
-```bash
-docker-compose up
-```
-
-### 2. Push the Image to Docker Hub
+### 1. Push the Image to Docker Hub
 1. Tag the image:
    ```bash
    docker tag your-image-name username/your-image-name
