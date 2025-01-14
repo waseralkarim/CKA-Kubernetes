@@ -19,7 +19,7 @@ This GitHub repository includes my Kubernetes learning meterials, notes, resourc
 - Run the container with `docker run -p 5000:5000 your-image-name`.
 - (Optional) Use Docker Compose for multi-container setups.
 
-# Day 3 Learnings: Multi-Stage Docker Build
+## Day 3 Learnings: Multi-Stage Docker Build
 
 - **Explored Multi-Stage Docker Builds**: Learned how to optimize image size by separating build and runtime dependencies.
 - **Created a Simple Dockerfile Example**: Built and served a Node.js application using multi-stage Docker techniques.
