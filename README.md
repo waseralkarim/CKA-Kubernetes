@@ -21,8 +21,8 @@ This GitHub repository includes my Kubernetes learning meterials, notes, resourc
 
 # Day 3 Learnings: Multi-Stage Docker Build
 
-1. **Explored Multi-Stage Docker Builds**: Learned how to optimize image size by separating build and runtime dependencies.
-2. **Created a Simple Dockerfile Example**: Built and served a Node.js application using multi-stage Docker techniques.
-3. **Key Benefits of Multi-Stage Builds**: Reduced image size, improved security, and faster deployments.
-4. **Debugging Tips**: Discovered `--target` for inspecting intermediate stages and `docker history` for analyzing image layers.
-5. **Best Practices in Docker**: Highlighted the importance of using lightweight runtime images and cleaning up unnecessary files.
+- **Explored Multi-Stage Docker Builds**: Learned how to optimize image size by separating build and runtime dependencies.
+- **Created a Simple Dockerfile Example**: Built and served a Node.js application using multi-stage Docker techniques.
+- **Key Benefits of Multi-Stage Builds**: Reduced image size, improved security, and faster deployments.
+- **Debugging Tips**: Discovered `--target` for inspecting intermediate stages and `docker history` for analyzing image layers.
+- **Best Practices in Docker**: Highlighted the importance of using lightweight runtime images and cleaning up unnecessary files.
