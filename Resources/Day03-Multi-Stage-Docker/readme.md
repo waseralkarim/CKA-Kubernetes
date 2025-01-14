@@ -15,33 +15,25 @@ Multi-stage builds are a powerful feature in Docker that allow you to optimize i
 ## Example: Multi-Stage Build for a Simple Application
 
 ```dockerfile
-# Stage 1: Build
+
 FROM node:18 AS builder
 
 WORKDIR /app
 
-# Copy the application files
 COPY package*.json ./
 
-# Install dependencies
 RUN npm install
 
-# Copy the source code
 COPY . ./
 
-# Build the application
 RUN npm run build
 
-# Stage 2: Runtime
 FROM nginx:alpine
 
-# Copy the built files from the builder stage
 COPY --from=builder /app/build /usr/share/nginx/html
 
-# Expose the default Nginx port
 EXPOSE 80
 
-# Start Nginx
 CMD ["nginx", "-g", "daemon off;"]
 ```
 
