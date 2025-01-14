@@ -73,7 +73,7 @@ CMD ["nginx", "-g", "daemon off;"]
 ## Debugging Multi-Stage Builds
 - Use `docker build --target <stage>` to stop the build at a specific stage for inspection.
 - Add debug tools temporarily to troubleshoot runtime issues (e.g., `bash`, `curl`).
-- Use `docker history <image>` to analyze image layers and ensure unnecessary files are excluded.
+- Use `docker history <image>` to analyze image layers and ensure unnecessary files are excluded also.
 
 ---
 
