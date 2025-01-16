@@ -2,7 +2,7 @@
 
 In large-scale applications, managing containers without an orchestration tool like Kubernetes can quickly become overwhelming. Admins are forced to manually monitor and fix issues with individual containers, as depicted below:  
 
-![Manual Fix Challenges]![Image](https://github.com/user-attachments/assets/28cd6c56-e007-4b6c-9beb-318c781f7dab)
+![Image](https://github.com/user-attachments/assets/28cd6c56-e007-4b6c-9beb-318c781f7dab)
 *Without Kubernetes, the Admin needs to manually address container failures.*  
 
 #### Key Challenges:
@@ -55,4 +55,10 @@ Despite its power, Kubernetes is not always the right choice for every situation
 3. **Low Resource Environments**: Kubernetes may introduce overhead for environments with limited resources, where lightweight orchestration is needed.
 4. **Non-Dockerized Applications**: Kubernetes is designed for containerized applications. If your application isn’t containerized, Kubernetes won’t provide much benefit.
 5. **Simple Dev/Test Environments**: For small-scale or temporary environments, using Kubernetes may overcomplicate things and introduce unnecessary overhead.
+
+## Resources
+- [Learn Kubernetes Basics](https://kubernetes.io/docs/tutorials/kubernetes-basics/)
+
+---
+Feel free to fork and contribute to this guide!
 
