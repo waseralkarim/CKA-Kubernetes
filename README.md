@@ -29,8 +29,8 @@ This GitHub repository includes my Kubernetes learning meterials, notes, resourc
 - 
 ## Day 4 Learnings: Why Kubernetes is needed?
 
-- **Kubernetes automates container management, addressing challenges like scaling, load balancing, and high availability.
-- **It simplifies container networking and resource management, making it ideal for large-scale applications.
-- **Kubernetes is best used for microservices, multi-cloud deployments, CI/CD pipelines, and complex distributed apps.
-- **It’s not suitable for single-container applications, short-lived jobs, low-resource environments, or non-containerized applications.
-- **By resolving the limitations of standalone containers, Kubernetes improves reliability and scalability in production environments.
+- Kubernetes automates container management, addressing challenges like scaling, load balancing, and high availability.
+- It simplifies container networking and resource management, making it ideal for large-scale applications.
+- Kubernetes is best used for microservices, multi-cloud deployments, CI/CD pipelines, and complex distributed apps.
+- It’s not suitable for single-container applications, short-lived jobs, low-resource environments, or non-containerized applications.
+- By resolving the limitations of standalone containers, Kubernetes improves reliability and scalability in production environments.
