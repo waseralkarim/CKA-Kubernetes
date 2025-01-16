@@ -26,3 +26,11 @@ This GitHub repository includes my Kubernetes learning meterials, notes, resourc
 - **Key Benefits of Multi-Stage Builds**: Reduced image size, improved security, and faster deployments.
 - **Debugging Tips**: Discovered `--target` for inspecting intermediate stages and `docker history` for analyzing image layers.
 - **Best Practices in Docker**: Highlighted the importance of using lightweight runtime images and cleaning up unnecessary files.
+- 
+## Day 4 Learnings: Why Kubernetes is needed?
+
+- **Kubernetes automates container management, addressing challenges like scaling, load balancing, and high availability.
+- **It simplifies container networking and resource management, making it ideal for large-scale applications.
+- **Kubernetes is best used for microservices, multi-cloud deployments, CI/CD pipelines, and complex distributed apps.
+- **It’s not suitable for single-container applications, short-lived jobs, low-resource environments, or non-containerized applications.
+- **By resolving the limitations of standalone containers, Kubernetes improves reliability and scalability in production environments.
