@@ -34,3 +34,10 @@ This GitHub repository includes my Kubernetes learning meterials, notes, resourc
 - Kubernetes is best used for microservices, multi-cloud deployments, CI/CD pipelines, and complex distributed apps.
 - It’s not suitable for single-container applications, short-lived jobs, low-resource environments, or non-containerized applications.
 - By resolving the limitations of standalone containers, Kubernetes improves reliability and scalability in production environments.
+
+## Day 4 Learnings: Kubernetes Basics
+
+- Basic details of Kubernetes,pod etc
+- Kubernetes Architecture
+- Master Node/Control Plane detailed information
+- Worker Node detailed information
