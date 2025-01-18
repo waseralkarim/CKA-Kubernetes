@@ -30,3 +30,5 @@ A single instance of a running process in a cluster.
 
 ## Resources
 - [Kubernetes Documentation](https://kubernetes.io/docs/concepts/)
+
+Feel free to fork and contribute to this guide!
