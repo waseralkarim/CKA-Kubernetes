@@ -28,8 +28,5 @@ A single instance of a running process in a cluster.
 
 ![Image](https://github.com/user-attachments/assets/9af35ded-44ce-472f-b9d1-70e54fde5948)
 
-https://kubernetes.io/docs/concepts/
-
 ## Resources
-
 - [Kubernetes Documentation](https://kubernetes.io/docs/concepts/)
