@@ -35,9 +35,9 @@ This GitHub repository includes my Kubernetes learning meterials, notes, resourc
 - It’s not suitable for single-container applications, short-lived jobs, low-resource environments, or non-containerized applications.
 - By resolving the limitations of standalone containers, Kubernetes improves reliability and scalability in production environments.
 
-## Day 4 Learnings: Kubernetes Basics
+## Day 5 Learnings: Kubernetes Basics
 
-- Basic details of Kubernetes,pod etc
+- Basic details of Kubernetes, pod, architectures etc
 - Kubernetes Architecture
 - Master Node/Control Plane detailed information
 - Worker Node detailed information
