@@ -41,3 +41,9 @@ This GitHub repository includes my Kubernetes learning meterials, notes, resourc
 - Kubernetes Architecture
 - Master Node/Control Plane detailed information
 - Worker Node detailed information
+
+## Day 5 Learnings: Setting Up Kubernetes with KIND (Kubernetes IN Docker)
+
+- Understanding KIND 
+- Step by step process on making a local Kubernetes Environment
+- Cluster Management
