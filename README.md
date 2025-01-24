@@ -42,8 +42,14 @@ This GitHub repository includes my Kubernetes learning meterials, notes, resourc
 - Master Node/Control Plane detailed information
 - Worker Node detailed information
 
-## Day 5 Learnings: Setting Up Kubernetes with KIND (Kubernetes IN Docker)
+## Day 6 Learnings: Setting Up Kubernetes with KIND (Kubernetes IN Docker)
 
 - Understanding KIND 
 - Step by step process on making a local Kubernetes Environment
 - Cluster Management
+
+## Day 7 Learnings: Kubernetes Pods
+
+- Imperative and declarative core concepts
+- How to get the YAML code from the pod created with the imperative method
+- Examples and practice meterials
