@@ -96,8 +96,8 @@ spec:
 
 ## 🛠️ 3 Ways to update the replica numbers:
 1. Directly through YAML/JSON file
-2. Live update: Kubectl edit rs/<pod name>
-3. Imperative way: kubectl scale --replicas=<number of replicas> rs/<pod name>
+2. Live update: Kubectl edit rs/`pod name`
+3. Imperative way: kubectl scale --replicas=`number of replicas` rs/`pod name`
 
 ### 🌐 References
 1. [Replication Controller - Kubernetes Docs](https://kubernetes.io/docs/concepts/workloads/controllers/replicationcontroller/)
