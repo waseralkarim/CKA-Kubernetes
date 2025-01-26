@@ -52,4 +52,11 @@ This GitHub repository includes my Kubernetes learning meterials, notes, resourc
 
 - Imperative and declarative core concepts
 - How to get the YAML code from the pod created with the imperative method
-- Examples and practice meterials
+- Examples and practice materials
+
+## Day 8 Learnings: Kubernetes Replication Controller, Replica Set and Deployment
+
+- Replication Controller ensures a specified number of pods are running at all times and replaces crashed or deleted pods.
+- ReplicaSet is the advanced version of Replication Controller with flexible selectors, usually managed through Deployments.
+- Deployment manages ReplicaSets, supports rolling updates, rollbacks, and scaling, and is ideal for stateless applications.
+- Replica numbers can be updated via YAML/JSON, kubectl edit, or kubectl scale.
